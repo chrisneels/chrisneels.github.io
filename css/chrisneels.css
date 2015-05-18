@@ -136,11 +136,11 @@ a:focus {
 
 .header_text {
     position: absolute;
-    top: 120px;
+    top: 69px;
     color: #fff;
     text-align: center;
     width: 100%;
-    font-size: 69px
+    font-size: 42px
 }
 
 .header_text hr {
@@ -151,18 +151,18 @@ a:focus {
 
 .teaser_text {
     position: absolute;
-    top: 260px;
+    top: 175px;
     color: #fff;
     text-align: center;
     width: 100%;
-    font-size: 23px;
+    font-size: 16px;
     margin: auto !important;
     line-height: 21px
 }
 
 .home-vid {
-    width: 100%;
-    position: relative;
+    position: absolute;
+    align: center;
     height: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -172,7 +172,7 @@ a:focus {
 
 .intro {
     display: table;
-    width: 100%;
+    height: 100%;
     height: cover;
     padding: 100px 0;
     text-align: center;
@@ -183,18 +183,20 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    z-position:
 }
 
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+    z-index: -999999;
 }
 
-.intro .intro-body .brand-heading {
+.intro .intro-body .brand-heading .header_text {
     font-size: 40px;
 }
 
-.intro .intro-body .intro-text {
+.intro .intro-body .intro-text .teaser_text{
     font-size: 18px;
 }
 
@@ -203,12 +205,16 @@ a:focus {
         height: 720px;
         padding: 0;
     }
+    
+    .homevid {
+        height: 720px;
+    }
 
-    .intro .intro-body .brand-heading {
+    .intro .intro-body .brand-heading .header_text{
         font-size: 69px;
     }
 
-    .intro .intro-body .intro-text {
+    .intro .intro-body .intro-text .teaser_text {
         font-size: 23px;
     }
 }
