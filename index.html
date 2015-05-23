@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/chrisneels.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -67,42 +67,15 @@
         </div>
         <!-- /.container -->
     </nav>
-
-    <!-- Intro Header -->
-    <object align="center" class="embed-responsive embed-responsive-16by9">
-    <video autoplay loop poster="https://ripple.com/wp-content/themes/ripple-beta/assets/videos/home.jpg">
-        <source src="vid/ripple.mp4" type="video/mp4">
-    </video>
-    <h1 class="header_text animated fadeInUp">Hi, I'm Chris.<hr></h1>
-    <h3 class="teaser_text animated2 fadeInUp">I want to work with passionate people on early-stage technologies</h3>
-    </object>
-<!--
-<header class="intro">
-    <video class="home-vid" autoplay loop>
-        <source src="vid/ripple.mp4" type="video/mp4">
-    </video>
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Hi, I'm Chris.</h1>
-                        <p class="intro-text">I want to work with passionate people on early-stage technologies.</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!--
+    
+    <!-- Intro Header
     <header class="intro">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">Hi, I'm Chris.</h1>
-                        <p class="intro-text">I want to work with passionate people on early-stage technologies.</p>
+                        <p class="intro-text">I want to work with passionate people on early-stage technologies</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -110,9 +83,14 @@
                 </div>
             </div>
         </div>
-    </header>
-     -->
-    
+    </header> -->
+
+<div class="header-video-container" >
+    <video class="header-video" autoplay loop poster="https://ripple.com/wp-content/themes/ripple-beta/assets/videos/home.jpg">
+        <source src="vid/ripple.mp4" type="video/mp4">
+            </video>
+</div>
+
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
@@ -126,7 +104,7 @@
 
     <!-- Projects Section -->
     <section id="projects" class="content-section text-center">
-        <div class="projects">
+        <div class="projects-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Projects</h2>
@@ -165,7 +143,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy;Chris Neels 2015</p>
+            <p>Copyright &copy; Chris Neels 2015</p>
         </div>
     </footer>
 
@@ -178,8 +156,11 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/chrisneels.js"></script>
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
 
 </body>
 
