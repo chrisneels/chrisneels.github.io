@@ -51,20 +51,7 @@ button:hover {
     font-size: 48px;
 }
 
-@media(min-width:768px) {
-    p {
-        margin: 0 0 35px;
-        font-size: 16px;
-        line-height: 1.6;
-    }
-    .intro-header {
-        font-size: 56px;
-    }
-    .intro-text {
-        font-size: 18px;
-        margin: 0px 160px 25px;
-    }
-}
+
 
 a {
     color: #BA8133;
@@ -254,7 +241,7 @@ a:focus {
     background-color: white;
 }
 
-@media(min-width:767px) {
+@media(min-width:768px) {
     .content-section {
         padding-top: 50px;
     }
@@ -262,7 +249,25 @@ a:focus {
     .projects-section {
         padding: 50px 0;
     }
+
+    p {
+        margin: 0 0 35px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .intro-header {
+        font-size: 56px;
+    }
+
+    .intro-text {
+        font-size: 18px;
+        margin: 0px 160px 25px;
+    }
 }
+
+@media(min-width:768px) {.content-section {width:600px}}
+@media(min-width:900px) {.content-section {width:700px}}
 
 footer {
     background-color: black;
@@ -317,7 +322,7 @@ body {
 
 
 
-/* Contact */
+/* Projects */
 
 .col-sm-6 {
     border:15px solid white;
