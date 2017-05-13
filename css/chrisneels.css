@@ -22,9 +22,9 @@ body {
   }
 }
 
-@media (max-width: 40px) {
+@media (max-width: 400px) {
   .container {
-    margin-top: 150px;
+    margin-top: 50px;
     margin-left: 25px;
     width: 100%;
   }
@@ -40,7 +40,6 @@ body {
 }
 
 #intro-paragraph {
-  width: 70%;
   margin-bottom: 40px;
 }
 
@@ -52,8 +51,10 @@ h1 {
   font-weight: 800;
 }
 
-p {
+p li {
   margin: 0px;
+  width: 70%;
+
 }
 
 a {
