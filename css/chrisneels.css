@@ -17,18 +17,11 @@ body {
 @media (max-width: 600px) {
   .container {
     margin-top: 200px;
-    margin-left: 50px;
-    width: 100%;
+    margin-left: 30%;
+    width: 70%;
   }
 }
 
-@media (max-width: 400px) {
-  .container {
-    margin-top: 50px;
-    margin-left: 25px;
-    width: 100%;
-  }
-}
 
 #list-header {
   text-transform: uppercase;
@@ -41,6 +34,7 @@ body {
 
 #intro-paragraph {
   margin-bottom: 40px;
+
 }
 
 
@@ -51,7 +45,7 @@ h1 {
   font-weight: 800;
 }
 
-p li {
+p, li {
   margin: 0px;
   width: 70%;
 
