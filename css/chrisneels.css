@@ -39,6 +39,12 @@ p, li {
   width: 70%;
 }
 
+li {
+  list-style-position: inside;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
 a {
   text-decoration: underline;
   color: #333333;
